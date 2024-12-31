@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.2.0" />
+    <PackageReference Include="Jaina" Version="4.4.0" />
+    <PackageReference Include="Quartz" Version="3.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WaterCloud.CodeGenerator\WaterCloud.CodeGenerator.csproj" />
+    <ProjectReference Include="..\WaterCloud.Code\WaterCloud.Code.csproj" />
+    <ProjectReference Include="..\WaterCloud.Data\WaterCloud.DataBase.csproj" />
+    <ProjectReference Include="..\WaterCloud.Domain\WaterCloud.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

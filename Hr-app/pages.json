@@ -1,0 +1,38 @@
+{
+	"pages": [
+		{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#ff6642",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/webview",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages/yewu",
+			"pages": [
+				{
+					"path": "index",
+					"style": {
+						"navigationBarTitleText": "首页",
+						"navigationBarBackgroundColor": "#07c160",
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "人力资源系统",
+		"navigationBarBackgroundColor": "#07c160"
+	}
+}
